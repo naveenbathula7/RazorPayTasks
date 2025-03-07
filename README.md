@@ -1,7 +1,7 @@
 # RazorPayTasks
 1.Setup and Run Instructions
 1.1. Clone the Repository
-   git clone https://github.com/your-repo/RazorpayTaskManager.git
+   git clone https://github.com/naveenbathula7/RazorPayTasks.git
    cd RazorpayTaskManager
 
 1.2. Open in Android Studio
@@ -10,7 +10,7 @@
 1.3. Add Dependencies (in build.gradle (Module))
    dependencies {
        // Razorpay SDK
-       implementation 'com.razorpay:checkout:1.6.26'
+       implementation 'com.razorpay:checkout:1.6.41'
 
        // Firebase
        implementation 'com.google.firebase:firebase-analytics-ktx'
@@ -85,9 +85,3 @@
 
 5.4. Screen Recording
    - Video showing payment process, crashes & Firebase logs.
-
-Next Steps
-Run the app
-Make test payments
-Verify Firebase logs
-Capture analytics & crash reports
